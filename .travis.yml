@@ -7,6 +7,13 @@ before_install:
     
 script:
   - docker run asma24/docker-react npm run test -- --coverage
+deploy:
+  provider: heroku
+  api_key:
+    secure: cae300fe-2933-46c7-a7b7-e880741b1205
+  app: dem-app-24
+  on:
+    repo: asmabahri/docker-react
     
   
           
