@@ -14,7 +14,7 @@ deploy:
   api_key:
     secure: cae300fe-2933-46c7-a7b7-e880741b1205
     
-  app: dem-app-24
+  app: demo-app-24
   
   on:
     repo: asmabahri/docker-react
